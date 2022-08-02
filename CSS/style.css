@@ -1,0 +1,295 @@
+:root {
+	--main-color: #e8e3d9;
+}
+html,
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	/* width: 1500px; */
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+h4 {
+	font-weight: lighter;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+/*Start Header*/
+.header {
+	background-color: var(--main-color);
+	width: 100%;
+	height: 8vh;
+	position: relative;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.header > div {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	cursor: pointer;
+}
+.header span {
+	display: block;
+	width: 18px;
+	height: 2px;
+	border: 1px;
+	background-color: black;
+	margin-bottom: 3px;
+}
+/*End Header*/
+/*Start Landing*/
+.landing {
+	background-color: var(--main-color);
+	padding-top: 80px;
+	padding-bottom: 85px;
+	text-align: center;
+}
+.landing .mainTitle {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 38px;
+	line-height: 1.4;
+}
+.landing .mainTitle span:first-child {
+	font-weight: bold;
+}
+.landing .mainTitle span:last-child {
+	font-weight: bold;
+	font-style: italic;
+}
+.landing .compDescribe {
+	font-size: 18px;
+	line-height: 1.4;
+}
+.landing button {
+	background-color: transparent;
+	outline-style: none;
+	padding: 8px 40px;
+	border-radius: 20px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.landing .container button:first-of-type {
+	background-color: #2f162b;
+	color: white;
+}
+/*End Landing*/
+/*Start Features*/
+.features {
+	background-color: white;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	position: relative;
+}
+.features .container > div:first-child {
+	position: absolute;
+	top: 80px;
+	left: 10%;
+	width: 30%;
+}
+.features .container > div:first-child > p:first-of-type {
+	font-size: 38px;
+}
+.features .container > div:first-child > p:first-of-type span:first-child {
+	font-weight: bold;
+}
+.features .container > div:first-child > p:first-of-type span:last-child {
+	font-weight: bold;
+	font-style: italic;
+}
+.features .container > div:last-child {
+	position: relative;
+	top: 0;
+	left: 55%;
+	width: 32%;
+}
+.features .container > div:last-child ul {
+	display: inline-block;
+	margin-top: 40px;
+	margin-right: 50px;
+}
+.features .container > div:last-child ul li {
+	margin-bottom: 10px;
+}
+/*End Features*/
+
+/*Start About*/
+.about {
+	background-color: white;
+	padding-top: 40px;
+}
+.aboutInfo {
+	position: relative;
+	top: 140px;
+	width: 34%;
+	left: 10%;
+}
+.aboutInfo P:first-of-type {
+	font-size: 38px;
+	line-height: 1.4;
+}
+.aboutInfo P:first-of-type span:first-child {
+	font-weight: bold;
+}
+.aboutInfo P:first-of-type span:last-child {
+	font-weight: bold;
+	font-style: italic;
+}
+.aboutInfo P:last-child {
+	width: 80%;
+	line-height: 1.4;
+}
+
+.about img {
+	position: relative;
+	left: 60%;
+	top: -350px;
+}
+/*End About*/
+/*Start What Learn*/
+.whatLearn {
+	background-color: white;
+	margin-top: -120px;
+	text-align: center;
+	padding-bottom: 80px;
+}
+.whatLearn .mainTitle {
+	font-size: 38px;
+	line-height: 1.4;
+}
+.whatLearn .mainTitle span:first-child {
+	font-weight: bold;
+}
+.whatLearn .mainTitle span:last-child {
+	font-weight: bold;
+	font-style: italic;
+}
+.whatLearn .ulCont {
+	position: relative;
+	left: 33%;
+}
+.whatLearn .ulCont ul {
+	text-align: left;
+}
+.whatLearn .ulCont ul li {
+	margin-bottom: 5px;
+}
+/*End What Learn*/
+/*Start Course Period*/
+.coursePeriod {
+	background-color: var(--main-color);
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.coursePeriod img {
+	position: relative;
+	left: 200px;
+}
+.periodInfo {
+	display: inline-block;
+	position: relative;
+	left: 20%;
+	bottom: 100px;
+}
+.periodInfo p:first-of-type {
+	font-size: 38px;
+	line-height: 1.4;
+}
+.periodInfo p:first-of-type span:first-child {
+	font-weight: bold;
+}
+.periodInfo p:first-of-type span:last-child {
+	font-weight: bold;
+	font-style: italic;
+}
+.periodInfo ol {
+	margin-left: -20px;
+}
+.periodInfo ol li {
+	margin-bottom: 10px;
+}
+.periodInfo p:last-of-type {
+	line-height: 1.4;
+}
+/*End Course Period*/
+/*Start landBack2*/
+.landBack2 {
+	background-color: white;
+}
+/*End landBack2*/
+/*Start Testimonials*/
+.testimonials {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	text-align: center;
+}
+.testimonials .container .mainTitle {
+	font-size: 38px;
+	line-height: 1.4;
+}
+.testimonials .container .mainTitle span:first-child {
+	font-weight: bold;
+	font-style: italic;
+}
+.testInfo > div {
+	background-color: var(--main-color);
+	width: 50%;
+	position: relative;
+	left: 24%;
+	padding: 20px 20px 0 20px;
+	margin-bottom: 25px;
+}
+.testInfo > div > div {
+	display: inline-block;
+	position: relative;
+	left: 10px;
+	bottom: 20px;
+	text-align: left;
+}
+/*End Testimonials*/
+/*Start Footer*/
+.footer {
+	padding-top: 40px;
+}
+.footerInfo {
+	width: 30%;
+	position: relative;
+	left: 20%;
+}
+.footerInfo div {
+	margin-bottom: 20px;
+}
+.footerInfo a {
+	color: black;
+	text-decoration-line: none;
+	border-bottom: 1px solid #000;
+}
+.footer .compContact {
+	position: relative;
+	bottom: 380px;
+	left: 65%;
+}
+.footer .compContact h2 {
+	font-weight: 900;
+	font-size: 32px;
+}
+.footer .compContact h2 span {
+	font-weight: 100;
+}
+.footer .CopyRight {
+	margin-top: -250px;
+	width: 100%;
+	background-color: #313131;
+	height: 10vh;
+	text-align: center;
+	color: rgb(97, 97, 97);
+	padding-top: 5px;
+	line-height: 1.4;
+}
+/*End Footer*/
